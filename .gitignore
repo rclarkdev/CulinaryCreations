@@ -1,6 +1,61 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+# ignore merge spam
+*.orig
+
+# visual studio ignores
+.vs/
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+[Bb]in
+[Dd]ebug*/
+obj/
+
+[Rr]elease*/
+_ReSharper*/
+[Tt]humbs.db
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+**/publish
+*.resharper
+*.datasource
+*.vsp
+*.backup
+node_modules/
+
+#.nuget/*
+packages/*
+#.vs/*
+
+*.VisualState.xml
+TestResult.xml
+
+
+# ignore local config files
+*.local.config
+
+# ignore appdata
+App_Data/**
 *~
 *.sw[mnpcod]
 .tmp
